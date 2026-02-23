@@ -10,6 +10,8 @@ cask "icevault" do
   desc "Automated cold backups to AWS S3 Glacier Deep Archive"
   homepage "https://github.com/lydakis/icevault"
 
+  depends_on macos: ">= :sonoma"
+
   app "IceVault.app"
 
   livecheck do
