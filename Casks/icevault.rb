@@ -2,8 +2,8 @@
 cask "icevault" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.8"
-  sha256 arm: "b13be25e29989bf14e219591a9e1913f49087c463cc1f64d58380a854c2432a6", intel: "497589fa09183472ad34a2922e50dfd54e4b40b7cad14f951f2e9dff08a7b621"
+  version "0.1.10"
+  sha256 arm: "7d6f445de32877bc34334ac39fe93484990a3017238d201f44d543e88ad27e1a", intel: "b14f7a1b2b3ea349703032c521316f253d533898d17bcff82737b0e98551d309"
 
   url "https://github.com/lydakis/icevault/releases/download/v#{version}/IceVault-#{version}-macos-#{arch}.dmg"
   name "IceVault"
